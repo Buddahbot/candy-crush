@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bluewrapper {
+  display: flex;
+  padding: 50px;
+  background: linear-gradient(
+    to bottom,
+    #3aa4d8,
+    #5cb6e0,
+    #7ec7e7,
+    #c3eaf7,
+    #a0d8ef
+  );
+}
+.gamewrapper {
+  display: flex;
+}
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  padding: 30px;
+  margin-left: 30px;
+  align-items: center;
+  background: #df73ff;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #454545;
+}
+.scoretitlewrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid yellow; */
+  width: 180px;
+  height: 30px;
+  color: white;
+  font-family: "Dancing Script";
+  text-shadow: 1px 1px 1px #000;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.scorewrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: #454545;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  border: 3px solid #eaa5ff;
+}
+.moveswrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  border-radius: 70px;
+  margin-top: 45px;
+  font-family: arial;
+  border: 3px solid #eaa5ff;
+  background: #454545;
+}
+.movestoptext {
+  display: flex;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movesbottomtext {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+.game {
+  padding: 30px;
+  width: 560px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom,
+    #d4d4d4,
+    #b4b4b4,
+    #909090,
+    #636363,
+    #909090
+  );
+}
+.gameboard {
+  display: flex;
+  width: 560px;
+  height: 560px;
+  flex-wrap: wrap;
+}
+.gameboard img {
+  display: flex;
+  height: 70px;
+  width: 70px;
 }
